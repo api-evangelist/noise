@@ -1,7 +1,24 @@
 aid: noise
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/noise.png
 name: Noise
-description: 'Noise is a company surfaced as a portfolio company of paradigm and added to the API Evangelist
-  network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Noise is a consumer "attention markets" / trend-prediction platform built on Base
+  where curators propose trend pages and communities trade markets on how relevant a topic, brand,
+  or movement becomes over time. Market price reflects a central "relevance" number, with funding
+  and liquidation mechanics familiar from perpetual markets. Noise raised a $7.1M seed round led by
+  Paradigm and launched an invite-only testnet beta. It is a mobile-first consumer app rather than a
+  developer platform; its public surface is product documentation (Mintlify) at docs.noise.xyz — no
+  first-party developer API, SDKs, or authentication scheme is currently published.'
 url: https://raw.githubusercontent.com/api-evangelist/noise/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Crypto
+- Prediction Markets
+- Attention Markets
+- Base
+- Trading
+- Consumer
+- Web3
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +47,14 @@ maintainers:
 common:
 - type: Website
   url: https://noise.xyz
+- type: Documentation
+  url: https://docs.noise.xyz/introduction
+- type: LLMsTxt
+  url: llms/noise-llms.txt
+- type: DomainSecurity
+  url: security/noise-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

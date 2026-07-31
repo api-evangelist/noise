@@ -1,0 +1,19 @@
+# provenance:
+#   generated: '2026-07-20'
+#   method: searched
+#   source: https://docs.noise.xyz/llms.txt
+# ---
+# Noise
+
+## Docs
+
+- [Curators](https://docs.noise.xyz/curators.md): Why curation exists, how to participate, and how curators earn.
+- [FAQ](https://docs.noise.xyz/faq.md): Common questions about Noise.
+- [How It Works](https://docs.noise.xyz/how-it-works.md): How market price, relevance, funding, and liquidation work.
+- [Introduction](https://docs.noise.xyz/introduction.md): The essentials of how Noise works.
+- [Relevance](https://docs.noise.xyz/relevance.md): The central evaluation number on Noise.
+- [Trading](https://docs.noise.xyz/trading.md): How to open, manage, and close a position.
+
+## OpenAPI Specs
+
+- [openapi](https://docs.noise.xyz/api-reference/openapi.json)
